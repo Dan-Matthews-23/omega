@@ -127,9 +127,11 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = os.environ.get('SECRET_KEY', '')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = 'DEVELOPMENT' in os.environ
+#DEBUG = 'DEVELOPMENT' in os.environ
+DEBUG = True
 
-ALLOWED_HOSTS = ['']
+ALLOWED_HOSTS = ['8000-danmatthews23-omega-s93xqkyh631.ws.codeinstitute-ide.net']
+CSRF_TRUSTED_ORIGINS = ['https://8000-danmatthews23-omega-s93xqkyh631.ws.codeinstitute-ide.net']
 
 
 # Application definition
