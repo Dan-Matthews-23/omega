@@ -12,6 +12,9 @@ class ProductAdmin(admin.ModelAdmin):
         'price',
         'rating',
         'image',
+        'country_origin',
+        'country_testing',
+        'purity',
     )
 
     ordering = ('sku',)
