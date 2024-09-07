@@ -9,8 +9,8 @@ SECRET_KEY = os.environ.get('SECRET_KEY', '')
 #DEBUG = 'DEVELOPMENT' in os.environ
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-danmatthews23-omega-s93xqkyh631.ws.codeinstitute-ide.net']
-CSRF_TRUSTED_ORIGINS = ['https://8000-danmatthews23-omega-s93xqkyh631.ws.codeinstitute-ide.net', 'https://8000-danmatthews23-omega-s93xqkyh631.gitpod.io']
+ALLOWED_HOSTS = ['8000-danmatthews23-omega-b9ccnzum0pp.ws-eu116.gitpod.io']
+CSRF_TRUSTED_ORIGINS = ['https://8000-danmatthews23-omega-s93xqkyh631.ws.codeinstitute-ide.net', 'https://8000-danmatthews23-omega-b9ccnzum0pp.ws-eu116.gitpod.io']
 
 
 # Application definition
@@ -182,8 +182,8 @@ if 'USE_AWS' in os.environ:
 
 
 # Stripe
-FREE_DELIVERY_THRESHOLD = 200
-STANDARD_DELIVERY_PERCENTAGE = 7.5
+FREE_DELIVERY_THRESHOLD = 500
+#STANDARD_DELIVERY_PERCENTAGE = 7.5
 STRIPE_CURRENCY = 'gbp'
 STRIPE_PUBLIC_KEY = os.getenv('STRIPE_PUBLIC_KEY', '')
 STRIPE_SECRET_KEY = os.getenv('STRIPE_SECRET_KEY', '')
