@@ -29,25 +29,46 @@ body {
 }
 
 .allauth-container {
-    width: 50%;
+    width: 30%;
+    background-color: #FAF9F6;
+    
 }
 
 .allauth-row-properties {
     padding: 5px;
-    border-style: solid;
-    border-color: black;
+    
 }
 
 .allauth-col-properties {
     padding: 5px;
-    border-style: solid;
-    border-color: black;
+    
+}
+
+.align-center {
+    text-align: center;
+    margin: auto;
+}
+
+.table-heading {
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 22px;
 }
 
 
 .allauth-default-text {
-    font-size: 12px;
-    letter-spacing: 2px;    
+    font-size: 15px;
+       
+}
+
+.blank-with-padding {
+    padding: 100px;
+}
+
+
+
+ul {
+    list-style-type: none;
 }
 
 
@@ -377,4 +398,77 @@ input[name='q']::placeholder {
     .decrement-qty {
         padding: .25rem .5rem !important;
     }
+}
+
+
+@media screen and (max-width: 1800px) {
+    .allauth-container {
+        width: 35%;        
+    }    
+}
+
+@media screen and (max-width: 1700px) {
+    .allauth-container {
+        width: 40%;        
+    }    
+}
+
+@media screen and (max-width: 1300px) {
+    .allauth-container {
+        width: 45%;        
+    }    
+}
+
+@media screen and (max-width: 1200px) {
+    .allauth-container {
+        width: 50%;        
+    }    
+}
+
+@media screen and (max-width: 1100px) {
+    .allauth-container {
+        width: 55%;        
+    }    
+}
+
+@media screen and (max-width: 1000px) {
+    .allauth-container {
+        width: 60%;        
+    }    
+}
+
+@media screen and (max-width: 900px) {
+    .allauth-container {
+        width: 65%;        
+    }    
+}
+
+@media screen and (max-width: 800px) {
+    .allauth-container {
+        width: 70%;        
+    }    
+}
+
+@media screen and (max-width: 700px) {
+    .allauth-container {
+        width: 75%;        
+    }    
+}
+
+@media screen and (max-width: 600px) {
+    .allauth-container {
+        width: 80%;        
+    }    
+}
+
+@media screen and (max-width: 500px) {
+    .allauth-container {
+        width: 80%;        
+    }    
+}
+
+@media screen and (max-width: 400px) {
+    .allauth-container {
+        width: 100%;        
+    }    
 }
