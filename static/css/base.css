@@ -177,10 +177,23 @@ input[name='q']::placeholder {
 /* ------------------------------- bootstrap toasts */
 
 .message-container {
-    position: fixed;
-    top: 72px;
-    right: 15px;
-    z-index: 99999999999;
+    width: 50%;
+    padding: 10px;
+    align-items: center;
+    margin: auto;
+       
+}
+
+.small-text {
+    font-size: 14px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.red {
+    color: red;
 }
 
 .custom-toast {
